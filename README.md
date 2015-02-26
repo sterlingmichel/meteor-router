@@ -229,7 +229,7 @@ Additionally, you might want to read [my blog post](http://bindle.me/blog/index.
 
 If you want the router to work in older version of Internet Explorer that don't support pushState, you can use the [HTML5-History-API](https://github.com/devote/HTML5-History-API) polyfill:
 ```bash
-  mrt add sterlingmichel:html5-history-api
+  mrt add html5-history-api
 ```
 
 ## Older Versions of Meteor
