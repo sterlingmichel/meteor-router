@@ -18,7 +18,7 @@ Package.on_use(function (api, where) {
   if (typeof api.export !== 'undefined') {
     api.use('webapp', 'server');
     api.use('ui', 'client', {weak: true}); //For helpers
-    api.use('HTML5-History-API', 'client', {weak: true});
+    api.use('html5-history-api', 'client', {weak: true});
   }
   
   api.add_files('lib/router_client.js', 'client');
